@@ -16,6 +16,28 @@ Specific techniques might include simple box plots, histogram charts with means,
 
 Descriptive analytics is very powerful for *understanding the current state of affairs* and for *developing the hypothesis* to anticipate where business problems and opportunities may lie. It helps us answer the question, what happened? [3]
 
+**Example**
+
+*Dataset:* San Francisco Crime Classification at Kaggle
+
+1. Frequency of Crimes in San Francisco [Link](https://www.kaggle.com/benhamner/sf-crime/frequency-of-crimes-in-san-francisco/code)
+
+2. Establish the hypythesis that two events happening exactly at the same time and place is not so rare...Multiple arrests? Probably. Multiple crimes? Maybe. [Link](https://www.kaggle.com/luventu/sf-crime/title)
+3. Finding out importance of address features such as 
+    1. the timing in terms of minute, hour and year are critical 
+    2. the collocated-crime feature scores surprisingly high 
+    3. the spatial coordinates are useful 
+    4. the total number of crimes in a steet is an important indicator, as well as some of the log-ratios 
+    5. the month is not particularly essential, presumably as seasonal information can be recovered from the week. [Link](https://www.kaggle.com/dollardollar/sf-crime/importance-of-address-features/code)
+4. Looking at history of crime. [Link](https://www.kaggle.com/swbevan/sf-crime/a-history-of-crime-python/code)
+5. Exploring and Visualizing Data
+    1. Some of the crime categories appear to have a higher variaiton per day than others.
+    2. Some crimes seem to occur more often on weekends. For example drunkennes and driving under the influence. [Link](https://www.kaggle.com/christophmichel/sf-crime/exploring-and-visualizing-data)
+6. Crime density by location [Link](https://www.kaggle.com/dbennett/sf-crime/test-map/code)
+7. SF Crime Dashboard using tableau [Link](https://www.kaggle.com/sanghan/sf-crime/crime-map-viz)
+8. Cluster of crimes near Hall of Justice [Link](https://www.kaggle.com/rapidminer/sf-crime/cluster-of-crimes-near-hall-of-justice)
+9. San Francisco Crime Map [Link](https://www.kaggle.com/tyz910/sf-crime/yet-another-map)
+
 ## Diagnostic analytics
 Diagnostic analytics helps you understand why it happened. It provides the reasons for what happened in the past. This type of analytics typically tries to *go deeper into a specific reason or hypotheses* based on the descriptive analytics.
 
@@ -30,6 +52,13 @@ Unlike descriptive or diagnostic analytics, predictive analytics is more forward
 * How will the future impact my product or service?
 
 Predictive analytics typically predicts what could happen based on the evidence we have seen.[3]
+
+**Example**
+
+*Dataset:* San Francisco Crime Classification at Kaggle
+
+1. Crime classification (Prediction) using XGBoost Algorithm [Link](https://www.kaggle.com/keldibek/sf-crime/xgboost-crime-classification)
+2. White-Collar vs. Blue-Collar Crime in SF [Link](https://www.kaggle.com/ampaho/sf-crime/white-collar-vs-blue-collar-crime-in-sf/code)
 
 ## Prescriptive analytics
 Prescriptive analytics goes beyond providing recommendations to actually executing the actions or taking the decisions that are right for a particular situation. It does this by looking at what happened in the past, the present state and all the future possibilities. Prescriptive analytics provides answers to the question, what steps or interventions need to be taken to achieve the desired outcomes? Often the intervention might be an optimal solution given the circumstances. Or the best possible action given the uncertainty in the environment and the limited information available. It frequently involves scenario analysis and or searching for optimal solutions. 
